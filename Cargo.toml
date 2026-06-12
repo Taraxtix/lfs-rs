@@ -1,0 +1,21 @@
+[package]
+name = "lfs-rs"
+version = "0.1.0"
+edition = "2024"
+description = "A Pure-Rust implementation of the LittleFS filesystem."
+license = "MIT"
+repository = "github.com/Taraxtix/lfs-rs"
+keywords = ["embedded", "filesystem", "littlefs", "embedded-fs"]
+categories = ["embedded", "filesystem", "no-std"]
+
+[dependencies]
+
+[lints.clippy]
+correctness = "warn"
+suspicious = "warn"
+complexity = "warn"
+perf = "warn"
+style = "warn"
+pedantic = "warn"
+cargo = "warn"
+nursery = "warn"
