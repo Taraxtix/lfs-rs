@@ -8,6 +8,9 @@ repository = "github.com/Taraxtix/lfs-rs"
 keywords = ["embedded", "filesystem", "littlefs", "embedded-fs"]
 categories = ["embedded", "filesystem", "no-std"]
 
+[features]
+threadsafe = []
+
 [dependencies]
 
 [lints.clippy]
